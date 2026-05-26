@@ -1,0 +1,218 @@
+[
+  {
+    "title": "DevOps #4: MYCE — 코드로 구축된 인프라 그리고 스케일링 실험",
+    "link": "https://blog.naver.com/drakor/224069375028?fromRss=true&trackingCode=rss",
+    "description": "DevOps #4 : MYCE — 코드로 구축된 인프라, 그리고 확장의 실험 (Infrastructure as Code and the Pursuit of Scalable DevOps) Status: 배포: Live 깃허브 리포 링크: IaC: Load Test IaC: Backend: Frontend: 기술문서 링크: 인프라를 코드로 정의하기 도전기 MYCE (Meet Your Clients & Exhibitions) 는 박람회 운영 전 과정을 온라인에서 관리할 수 있는 박람회 생애주기 관리 플랫폼이다. Spring Boot 3.5 + React 기반의 풀스택 구조로 운영자가 웹 하나로 박람회 개최부터 예약·결제·정산·채팅·AI 상담까지 모두 하나의 시스템 안에서 처리할 수 있도록 설계했다. 이전 Job談이 “풀스택 CI/CD 자동화”를 완성한 프로젝트였다면 MYC....... <img src=\"https://blogthumb.pstatic.net/MjAyNTExMDhfMTI0/MDAxNzYyNjA2MDUxOTM2.G1PEyJh8YS7v2QUVi04g9_al8que7q4A7HSrDrmav4Ag.-fNUU3ZhZ_kmiCcQZ-ywxsqGlDxkjx9v0MPQI4OMo9sg.PNG/MYCE1.png?type=s3\" />",
+    "pubDate": "Sat, 08 Nov 2025 22:27:39 +0900"
+  },
+  {
+    "title": "DevOps #3 : Job談 – 풀스택 CI/CD",
+    "link": "https://blog.naver.com/drakor/224069242269?fromRss=true&trackingCode=rss",
+    "description": "Status: 배포: Live 깃허브 리포 링크: 기술문서 링크: 풀스택 아키텍처 구축기 — 두 개의 저장소, 하나의 시스템 Job談(잡담)은 스프링부트와 리액트를 기반으로 한 유료 구독형 소셜 채용 커뮤니티 플랫폼이다. 구직자, 기업, 에이전트를 연결하며 커뮤니티·채팅·멘토링 등 다양한 기능을 제공한다. 백엔드는 Spring Boot 3.5 + MySQL + MongoDB, 프론트엔드는 React + Vite로 구성되었으며, 이번 프로젝트의 목표는 풀스택 CI/CD 파이프라인 정착과 Google · Kakao OAuth 2.0 통합이었다. 이전까지는 단일 리포지토리 내 Thymeleaf 기반 서버 사이드 렌더링을 사용했으나 이번에는 백엔드와 프론트엔드를 완전히 분리해 두 리포지토리를 운영....... <img src=\"https://blogthumb.pstatic.net/MjAyNTExMDhfMTY1/MDAxNzYyNTI4MzAwMzc4.Qag5DuoYEDr0OJYTpXfYhlVqeU_n1S-C7OEqc92Bt-Ug.uDI_EJd6h2XY9NCv_D7qlcDzwAXc2zjRAu-IvF-secsg.PNG/jobdam.png?type=s3\" />",
+    "pubDate": "Sat, 08 Nov 2025 19:20:52 +0900"
+  },
+  {
+    "title": "DevOps #2 : KnockSea (낚씨) — 첫 AWS CI/CD 환경 구축기 (시연 영상)",
+    "link": "https://blog.naver.com/drakor/224068547333?fromRss=true&trackingCode=rss",
+    "description": "Status: 배포: 종료 깃허브 리포 링크: 기술문서 링크: Mac Mini를 떠나 AWS로 — DevOps의 다음 단계 프로젝트 개요 및 기술 스택 KnockSea(낚씨)는 낚시를 사랑하는 사람들을 위한 온라인 커뮤니티 플랫폼이다. 사용자는 지역별 낚시터 정보를 지도 기반으로 확인할 수 있고 질문 게시판과 소통 공간을 통해 다른 낚시인들과 교류할 수 있다. 이 프로젝트의 핵심은 데이터 시각화와 자동화된 배포였다. 지도 서비스 API와 MongoDB Atlas를 활용해 실제 낚시터 데이터를 시각적으로 보여주었고, AWS 기반의 CI/CD 파이프라인을 구축해 GitHub에서 코드가 푸시되면 자동으로 빌드·배포가 이루어지는 환경을 만들었다. 기술 스택 개요 아키텍처 개....... <img src=\"https://blogthumb.pstatic.net/MjAyNTExMDdfMzcg/MDAxNzYyNTIzODEyNTI5.axhWu3r7MTwflmJCLqjP5AcYfw-qnksWtxavI8WRlWwg.n0pnPuZijyGWax807dCOF_6kmAziCuIvDDrrCHUdxBEg.PNG/knocksea.png?type=s3\" />",
+    "pubDate": "Fri, 07 Nov 2025 23:49:05 +0900"
+  },
+  {
+    "title": "DevOps #1: Used Lion (중고사자) — 첫 배포의 시작",
+    "link": "https://blog.naver.com/drakor/224068422419?fromRss=true&trackingCode=rss",
+    "description": "Status: 배포: 종료 깃허브 리포 링크: 기술문서 링크: Mac Mini에서 시작된 첫 DevOps 배포 경험 Used Lion은 중고 물품을 판매하고 채팅할 수 있는 웹 기반 플랫폼이다. 이 글은 멋쟁이사자처럼 부트캠프 첫 프로젝트였던 Used Lion을 맥미니 자체 서버에서 직접 배포한 경험으로부터 시작한다. 백엔드 중심의 교육 과정이었지만, 예전부터 개인 서버를 운영하며 쌓아온 리눅스와 인프라 관련 기본기가 큰 자산이 되었다. 이미 네트워크 인프라와 리눅스 환경에 익숙했기에, 백엔드 개발의 출발점에서부터 ‘숲’과 ‘나무’를 함께 바라보는 시각을 가질 수 있었다. 오래된 노트북에는 Proxmox를 설치해 그 위에 Windows VM을 구동했고, 라즈....... <img src=\"https://blogthumb.pstatic.net/MjAyNTExMDdfOTkg/MDAxNzYyNTE4NDAxNzQ1.5rfiVEA-iGAjKgqC1U522jOWIoDw4Fy0qBSXCJemOskg._426A-RZL4cNLS_bsbDZrzTzJw_IRHxUAxE2z_Bl1b0g.PNG/Screenshot_2025-05-16_at_17.11.53.png?type=s3\" />",
+    "pubDate": "Fri, 07 Nov 2025 21:14:27 +0900"
+  },
+  {
+    "title": "DevOps #0: 멋쟁이사자처럼 부트캠프 인프라 여정 시리즈 소개",
+    "link": "https://blog.naver.com/drakor/224068291052?fromRss=true&trackingCode=rss",
+    "description": " 이 시리즈는 작성 중이며, 각 프로젝트 글이 완성되는 대로 링크가 추가됩니다. DevOps : 멋쟁이사자처럼 부트캠프 인프라 여정 시리즈 소개 자바 백엔드 부트캠프 동안 진행했던 네 번의 프로젝트. 개인 컴퓨터에서의 배포로 시작해 AWS 인프라를 활용한 쿠버네티스 배포까지의 여정을 DevOps 관점에서 정리한 시리즈다. 자바 백엔드 부트캠프 동안 배운 비즈니스 로직, 서비스 설계, 데이터베이스 구축은 다른 글에서 다루기로 하고, 이 시리즈에서는 배포, 자동화, 운영 환경 구성, 비용 관리, 그리고 지속 가능한 운영에 대한 고민을 기록으로 남긴다. 각 프로젝트의 깃허브 리포, 기술문서, 웹사이트 링크 (아직 라이브인 경우), 기술....... <img src=\"https://blogthumb.pstatic.net/MjAyNTExMDdfNzcg/MDAxNzYyNTE5MTg4MjIx.6XuwmQd8Cf4Ckliir8iZ9PB0pK8uhBysibK8kovLKfIg.7_UT6o90oeRkeZY-A4PGNZ9Dd5G82bCHsDQFdbO43pkg.PNG/Screenshot_2025-05-16_at_17.11.53.png?type=s3\" />",
+    "pubDate": "Fri, 07 Nov 2025 18:33:11 +0900"
+  },
+  {
+    "title": "IPv4 vs IPv6: The Fortress on the Mountain and the Open City on the Plain",
+    "link": "https://blog.naver.com/drakor/224037809958?fromRss=true&trackingCode=rss",
+    "description": "This essay grew from a personal reflection. I’m not a network scientist, just a developer fascinated by how technology mirrors human systems.The metaphors and opinions are my own, but ruminating about them this way helped me understand IPv6 in a way the RFCs never could. IPv4 → IPv6 as Seen Through Network Theory and Human Nature 1. When the Terrain Protected Us For decades, the Internet we knew resembled a fortress on a mountain. The mountain was IPv4; rugged, limited, and hard to climb. A single narrow road led to the castle gate: the NAT router. Inside the fortress lived millions of devic.......",
+    "pubDate": "Sat, 11 Oct 2025 18:32:13 +0900"
+  },
+  {
+    "title": "Baekjoon: 2292 벌집 + 등차수열의 합 공식 + 근의 공식",
+    "link": "https://blog.naver.com/drakor/224021987522?fromRss=true&trackingCode=rss",
+    "description": "This was not a difficult problem as I solved the problem with a loop-based solution in about 10 minutes. But I thought it would be interesting to dust off my math skills from back in the day and try my hands on crafting a formula that would solve the problem in O(1). Loop-based solution: Math-Based O(1) Solution Looking for the minimum number of rings (layers, paths) k for a given N (room) N = 1 is k = 1 Room #1 is base layer and in the problem is counted as room passed therefore k = 1 First layer around Room #1 has six rooms {2, 3, 4, 5, 6, 7} Second layer around first layer ha....... <img src=\"https://blogthumb.pstatic.net/MjAyNTA5MjZfMTY1/MDAxNzU4ODE0MTIwMjk0._gtwFw9dzZH1imWhG16Dath2vAUgLVJ7N8jL25at5bgg.6iV-olP9yOIQGusVK6GrPyVmNTRE38XhpIDPQ63m2Pgg.JPEG/IMG_2589.jpg?type=s3\" />",
+    "pubDate": "Fri, 26 Sep 2025 01:00:51 +0900"
+  },
+  {
+    "title": "멋쟁이사자처럼 부트캠프 Java Backend [Java Set와 Map의 흥미로운 이야기]",
+    "link": "https://blog.naver.com/drakor/223915337872?fromRss=true&trackingCode=rss",
+    "description": "Java의 Set과 Map 관계 — 알고 보면 더 흥미로운 이야기 현대 프로그래밍 언어에서 자료구조는 가장 기본적인 요소 중 하나이다. 다양한 언어들은 각자의 방식으로 이를 구현한다. 현재 Java를 공부하는 입장에서 Set와 Map 사이의 재미있는 관계를 발견하고 이를 정리하고자 한다. Set는 두 가지 특징을 가진다. 1. 데이터가 중복될 수 없다. 2. 데이터의 순서를 보장하지 않는다. (단 LinkedHashSet은 입력 순서, TreeSet은 정렬 기준에 따른 순서를 보장한다) Map의 제일 중요한 특징은 key : value의 쌍으로 데이터를 저당한다는 것이다. 필수 컬렉션 자료구조인 Set과 Map은 Java의 Collections 프레임워크에 포함되어 있으며 각각 다양한.......",
+    "pubDate": "Sun, 29 Jun 2025 10:05:12 +0900"
+  },
+  {
+    "title": "꼭 알아야 할 리눅스 기본 툴 vs 나만의 파워셋팅",
+    "link": "https://blog.naver.com/drakor/223903607607?fromRss=true&trackingCode=rss",
+    "description": "개발이나 서버 세팅을 하다 보면 리눅스를 사용하는 상황은 피할 수 없다. 리눅스 셸 환경을 훨씬 더 강력하고 편리하게 만들어주는 도구들이 많아 잘만 활용하면 생산성과 작업 효율이 눈에 띄게 올라간다. 하지만 현실에서는 회사/고객 서버나 클라우드 VM처럼 내가 직접 설정하지 않은 환경에 접속해야 하는 경우가 많을 수 있다. 이때는 내가 평소 사용하던 셋업이 없어 불편함을 느끼게 된다. 그래서 이 글에서는 리눅스에서 자주 쓰는 기본 툴들과, 개인적으로 사용하는 맞춤 툴들을 나란히 정리했다. 둘 다 알면 어떤 환경에서도 대응 가능하다. Shell: bash → zsh (+ Oh My Zsh) bash: 대부분의 리눅스 배포판에서 기본 제공되는 셸. zs.......",
+    "pubDate": "Wed, 18 Jun 2025 16:37:53 +0900"
+  },
+  {
+    "title": "맥/리눅스 터미널 업그레이드: Zsh + Oh My Zsh",
+    "link": "https://blog.naver.com/drakor/223903240092?fromRss=true&trackingCode=rss",
+    "description": "기본 터미널도 나쁘진 않지만 터미널 매일 쓰는 사람이라면 예쁘고 강력한 zsh 써보면 못 돌아감. 특히 맥(macOS) 이나 리눅스(Ubuntu, WSL 포함) 쓰는 사람이라면 zsh + Oh My Zsh 조합은 꼭 한 번 시도 해볼 것을 추천. zsh? Z Shell이라는 셸. Bash의 업그레드 버전으로 생각하면 됨. 맥은 5~6년 전부터 기본 셸이 zsh로 세팅. 자동완성, 추천, 이쁜 테마 등등 기본 기능이 좋음. Oh My Zsh? zsh 셸을 더 예쁘게, 더 똑똑하게 꾸며주는 프레임워크. 다양한 플러그인 및 테마 지원. 설치하면 터미널이 사용하기 더 편해지고 더 쉽게 꾸밀 수 있음 https://ohmyz.sh/ 설치 순서 1. zsh 설치 (리눅스만 해당, 맥은 이미 기본) *apt는 우분투의 패.......",
+    "pubDate": "Wed, 18 Jun 2025 11:36:09 +0900"
+  },
+  {
+    "title": "멋쟁이사자처럼 부트캠프 Java Backend [체크박스와 hidden input의 위치, 그리고 방어적 코딩에 대한 고민]",
+    "link": "https://blog.naver.com/drakor/223881162491?fromRss=true&trackingCode=rss",
+    "description": "개발을 하다보면 종종 \"증명된 idiom을 그대로 사용할지 아니면 더 나은 방식이 있을까?\"라는 고민을 하게 된다. 이번에 팀원과 함께 done_flg 상태 값을 처리하는 과정을 테스트하고 정리하면서, 생각보다 많은 걸 배우고 고민하게 되었다. 상황 요약 HTML 템플릿에서 Todo 리스트를 반복 출력하면서, 각 아이템의 완료 상태를 체크박스로 표시하고 업데이트한다. 대표적인 코드는 다음과 같다. 여기서 문제가 되는 건 체크박스의 특성상 체크가 해제되면 아무 값도 전송되지 않는다는 점이다. 그래서 보통 “체크 해제 상태도 서버로 전달되도록 하기 위해” 같은 이름의 hidden input을 추가해둔다. 그런데 hidden input을 위에 둬.......",
+    "pubDate": "Wed, 28 May 2025 21:29:01 +0900"
+  },
+  {
+    "title": "멋쟁이사자처럼 부트캠프 Java Backend [코딩테스트: 정렬의 함정]",
+    "link": "https://blog.naver.com/drakor/223869674330?fromRss=true&trackingCode=rss",
+    "description": "코딩 테스트 회고: 내 코드가 clever 하다는 착각 최근에 프로그래머스 “과일 장수” 문제를 풀면서 나름 괜찮은 방법을 썼다고 생각했다. 문제를 요약하자면: score[] 배열이 있고, 점수 순으로 박스를 나눠야 한다. 한 박스는 m개의 아이템으로 구성되어야 하며, 박스의 가격은 그 안에서 가장 낮은 점수 × m 총 이익을 구하는 문제다. 나는 이렇게 생각했다. 그룹 안에서 가장 낮은 값을 구해야 한다 score 배열을 내림차순으로 정렬하면 각 그룹에서 마지막 요소가 최소값이겠지 그래서 다음과 같이 접근했다: Arrays.sort(score)로 오름차순 정렬 직접 배열을 뒤집어서 내림차순으로 변환 for문으로 m개 단위로 순회하며 score[i + m - 1] .......",
+    "pubDate": "Sun, 18 May 2025 19:00:59 +0900"
+  },
+  {
+    "title": "멋쟁이사자처럼 부트캠프 Java Backend [코딩테스트: Prefix Sum으로 최적화하기]",
+    "link": "https://blog.naver.com/drakor/223869464677?fromRss=true&trackingCode=rss",
+    "description": "수열과 구간 쿼리 1: Brute-force부터 Prefix Sum 최적화까지 “수열과 구간 쿼리 1”는 프로그래머스 기초 문제로 풀이 자체는 쉬운 문제다. 문제 요약: 주어진 정수 배열 arr에 대해 여러 개의 쿼리 [s, e]가 주어질 때, 각 쿼리마다 arr[s]부터 arr[e]까지의 구간에 있는 값들을 1씩 증가시켜야 합니다. 최종적으로 업데이트된 배열을 반환하시오. 1단계 풀이: 중첩 for문 (Brute-force) 처음에는 단순하게 각 쿼리마다 해당 구간을 순회하면서 직접 값을 증가시키는 방식으로 접근할 수 있다. 구현이 매우 직관적이고 이해하기 쉽다. 문제는: 쿼리 수가 많거나 각 쿼리의 범위가 길 경우 O(Q × R) 으로 시간 초과 발생 가능 2단계 풀이: Diff.......",
+    "pubDate": "Sun, 18 May 2025 14:09:24 +0900"
+  },
+  {
+    "title": "멋쟁이사자처럼 부트캠프 Java Backend [jenv와 sdkman 함께 사용하는 법]",
+    "link": "https://blog.naver.com/drakor/223861951323?fromRss=true&trackingCode=rss",
+    "description": "https://blog.naver.com/drakor/223781776789 jenv + sdkman을 함께 사용하는 방법 (충돌 없이 Java 버전 관리) 자바 프로젝트를 하다 보면 \"이 프로젝트는 Java 8, 저건 Java 17...\" 버전 지옥에 빠지는 순간이 온다. 예전에 jenv 설정 블로그 글에서 (상단에 링크) macOS에서 자바 버전 관리를 손쉽게 하는 방법으로 jenv를 소개했는데, 오늘은 그 jenv와 skman을 함께 사용하는 팁을 공유해 보려고 한다. jenv 복습 - 자바 버전 매니저 jenv는 여러 버전의 자바를 설치해두고, 프로젝트별 혹은 전역적으로 (global) 어떤 버전을 사용할지 설정할 수 있게 해준다. jenv global: 전체 시스템 적용 jenv loal: 해당 디렉토리에만 적용.......",
+    "pubDate": "Sun, 11 May 2025 14:20:54 +0900"
+  },
+  {
+    "title": "멋쟁이사자처럼 부트캠프 Java Backend [Mac 환경에서 MySQL 파일 입출력 설정하기]",
+    "link": "https://blog.naver.com/drakor/223810687334?fromRss=true&trackingCode=rss",
+    "description": "Study Notes: MySQL 맥에서 secure_file_priv 설정과 파일 입출력 해결기 수업시간 테이블에 파일을 로드하는 부분에서 맥의 기본 설정은 파일 입출력 기능이 기본으로 막혀 있어 당황함. # 문제 상황: secure_file_priv = NULL 현재 파일 입출력이 완전히 비활성화된 상태로 경로 설정을 해줘야 함. 해결 순서 요약: 1. MySQL 설정 파일 위치 확인 2. secure_file_priv 경로 설정 3. 권한과 폴더 생성 4. MySQL 재시작 5. 확인 및 테스트 *유념할 사항: 나의 경우 설치한 MySQL은 dmg 파일로 설치한 경우이다. Brew로 설치한 경우 조금 내용이 달라질 수 있다. (그래도 크게 다를 부분은 없을듯 해서 시도는 해 볼 수 있을 듯) 처음에는 맥.......",
+    "pubDate": "Wed, 26 Mar 2025 17:19:36 +0900"
+  },
+  {
+    "title": "멋쟁이사자처럼 부트캠프 Java Backend [SQL Query로 놀기]",
+    "link": "https://blog.naver.com/drakor/223805311006?fromRss=true&trackingCode=rss",
+    "description": "예전에 상당히 재미있게 SQL로 미스터리 풀기를 진행했던 기억이 나서 공유한다: Harvard CS50 수업의 프로젝트 중 하나이며 아래 깃허브 링크에서 받거나 첨부한 zip파일을 다운로드 하여도 된다. 첨부된 파일은 MySQL에서 fiftyville 데이터베이스를 생성하는 스크립트 (원래 db는 sqlite db이다) 답을 적을 .txt파일과 로그를 적을 log.sql 예전에 풀어놓은 (sqlite) 로그파일 및 답이 들어 있는 폴더로 구성되어 있다. https://github.com/juanpark/LikeLion-Collab/tree/main/curriculum/AppJava/myDB/fiftyville 깃허브 해당 폴더 README.md: Fiftyville은 Harvard CS50의 프로젝트 중 하나입니다. 관련 저작권에 대한 자세한 사항은 페이.......",
+    "pubDate": "Fri, 21 Mar 2025 21:58:20 +0900"
+  },
+  {
+    "title": "멋쟁이사자처럼 부트캠프 Java Backend [맥 mysql dmg 버전 가이드]",
+    "link": "https://blog.naver.com/drakor/223803324448?fromRss=true&trackingCode=rss",
+    "description": "맥에서 dmg버전을 설치를 한 경우 system settings 검색창에서 mysql 찾아서 위와 같이 구동되는것을 확인하세요 터미널에서 사용 예정이시라면 우선 path 설정부터 해주세요: 우선 root로 실행하세요. 본인 터미널 유저로 실행하고 싶으시다면 root로 터미널 유저를 추가해주셔야 합니다: <img src=\"https://blogthumb.pstatic.net/MjAyNTAzMjBfMTMw/MDAxNzQyNDM1ODY5NTY5.HwzqXtxShQeqEnESnzqYm-CiUKwIZDpU5jbku8Kv_dwg.cI1yVpGA0YFziLDuXTQZ0oxOvvPWWrH8Nx7YlT13Digg.PNG/Screenshot_2025-03-20_at_10.42.43.jpeg.png?type=s3\" />",
+    "pubDate": "Thu, 20 Mar 2025 11:16:10 +0900"
+  },
+  {
+    "title": "멋쟁이사자처럼 부트캠프 Java Backend [Day 10]",
+    "link": "https://blog.naver.com/drakor/223795212440?fromRss=true&trackingCode=rss",
+    "description": "Study Notes: What is an Abstract Class in Java? An abstract class is a class that cannot be instantiated and is meant to be extended by subclasses. It may or may not contain abstract methods (methods without a body). Abstract classes are used to provide a common base for multiple subclasses Cannot be instantiated : you cannot create an object of an abstract class. Can have abstract methods: methods without a body (must be implemented by subclasses) Can have concrete methods: can include regular methods with implementation. Can have constructors: but only used in subclasses (not directly instan.......",
+    "pubDate": "Thu, 13 Mar 2025 23:33:19 +0900"
+  },
+  {
+    "title": "멋쟁이사자처럼 부트캠프 Java Backend [Day 9]",
+    "link": "https://blog.naver.com/drakor/223791440344?fromRss=true&trackingCode=rss",
+    "description": "Study Notes: More on Generic For-Loops (a.k.a. enhanced for-loop, for-each loop) Iterating over muti-dimensional arrays (array of arrays): above is a 2d array : int[][] outer loop iterates over the rows of the numbers array for (int[] row : numbers) this loop iterates over the rows each row is an entire 1D array (int[]) inner loop iterates over each element in the row for (int num : row) each row is a 1D array (int[]) this loop iterates through the elements (columns) in the row each num is a single integer value from that row Jagged Arrays (a.k.a. Ragged Array, Irregular Array) A jagged arry i....... <img src=\"https://blogthumb.pstatic.net/MjAyNTAzMTFfMTU3/MDAxNzQxNjE5ODIyNTI1.7JX73KcvJLVB8N6jBRqHLrT_UxTFf_AKnZz3PhJ79y8g._Jt0AnKL-_mPHBNZoeiqdfQBO5C-4tOKpPbG_zeSBMAg.PNG/Screenshot_2025-03-11_at_00.15.58.jpeg.png?type=s3\" />",
+    "pubDate": "Tue, 11 Mar 2025 00:18:12 +0900"
+  },
+  {
+    "title": "멋쟁이사자처럼 부트캠프 Java Backend [Day 8]",
+    "link": "https://blog.naver.com/drakor/223790022796?fromRss=true&trackingCode=rss",
+    "description": "Study Notes: Java Text Blocks (Multiline String) Java allows multiline strings using three double-quotes (\"\"\" \"\"\"), similar to Python’s triple-quoted strings: Key Features of Java Text Blocks: 1. Multiline Support – No need for \\n to break lines. 2. Preserves Formatting – Whitespace and indentation remain as written. 3. Easier to Use – No need for escape characters (\\\" or \\\\n). In Java, text blocks (\"\"\" \"\"\") are specifically for multiline string literals, not for docstrings or comments. Observations Regarding Bit Shifts: >.......",
+    "pubDate": "Sun, 09 Mar 2025 22:46:27 +0900"
+  },
+  {
+    "title": "멋쟁이사자처럼 부트캠프 Java Backend [Day 7]",
+    "link": "https://blog.naver.com/drakor/223788073145?fromRss=true&trackingCode=rss",
+    "description": "Study Notes: Java Operators Operators affect operands Unary operator Binary operator Ternary operator Operator precedence Parentheses, Array Access, Member Access ( ), [ ], . Unary Operators (Postfix & Prefix) ++, --, +, -, ~, ! Multiplicative *, /, % Additive +, - bitwise Shift <<, >>, >>> Relational <, <=, >, >=, instaneof Equality ==, != & Bitwise AND ^ Bitwise XOR | Bitwise OR && Logical AND || Logical OR ? : Ternary =, +=, -=, *=, /=, %=, &=, ^=, |=, >>=, &.......",
+    "pubDate": "Fri, 07 Mar 2025 23:54:54 +0900"
+  },
+  {
+    "title": "멋쟁이사자처럼 부트캠프 Java Backend [Day 5 + Day 6]",
+    "link": "https://blog.naver.com/drakor/223786685701?fromRss=true&trackingCode=rss",
+    "description": "Sudy Notes: Not planning to write down everything. Will focus on drilling down deeper with the points that was most interesting. Weird Eclipse Error (troubleshooting) During class, for some reason began getting errors on printf statements on the Eclipse IDE. At first thinking it was some sort of syntax error, reviewed code multiple times but was unable to find any errors. Error message: \"The method printf(Locale, String, Object...) from the type PrintStream refers to the missing type Locale\" Tried manually importing java.util.Locale, checked my JDK settings, library paths, Project &g.......",
+    "pubDate": "Fri, 07 Mar 2025 00:17:36 +0900"
+  },
+  {
+    "title": "멋쟁이사자처럼 부트캠프 Java Backend [Eclipse - GitHub 연동 가이드]",
+    "link": "https://blog.naver.com/drakor/223785044903?fromRss=true&trackingCode=rss",
+    "description": "LikeLion-Collab 멋쟁이사자처럼 | 벡엔드 자바 15기 | 회고4팀 협업 공간  팀원들을 위한 Eclipse - GitHub 연동 가이드 문서 작성자: 박정환 연계 가이드: Git, GitHub 팀 Repo 가이드 https://blog.naver.com/drakor/223781044141 Disclaimer: Eclipse와 팀 GitHub 연동 가이드라는 이름 때문에 오해를 할 수 있지만 엄밀히 말하자면 팀의 GitHub Repo를 바로 연결한는 방식이 아닙니다. 위 연계 가이드에서 설명한대로 각 팀 멤버의 로컬머신에 팀 GitHub를 clone 한 후, clone 된 Git에 Eclipse를 연결하는 방법을 설명합니다. Eclipse - Import Git File > Import > Selct : Git > Projects from Git Select Repository Sourc....... <img src=\"https://blogthumb.pstatic.net/MjAyNTAzMDVfNSAg/MDAxNzQxMTc2NjA5OTYx.qXKGIKxpttlNHg5K5Q2FEzHiuFEeqS2g6n1uXyXL2xcg.7vxim2x4KhNJK0OvhEhrYbRfRD_Chu_3SIXsvKNXS-8g.PNG/IMG_1893.PNG?type=s3\" />",
+    "pubDate": "Wed, 05 Mar 2025 22:22:11 +0900"
+  },
+  {
+    "title": "멋쟁이사자처럼 부트캠프 Java Backend [jenv로 맥에서 JDK 버전 관리]",
+    "link": "https://blog.naver.com/drakor/223781776789?fromRss=true&trackingCode=rss",
+    "description": "멋쟁이사자처럼 자바 백엔드 Discord 채널에 Windows에서 여러 Java JDK 버전을 사용하는 방법에 대한 블로그 글이 공유되었다. 그 글에서 Mac에서 사용 가능한 \"jenv\"라는 툴이 언급되었고, 유용할 것 같아 내 시스템에도 적용해 보았다. 처음 사용해 본 느낌은, “어? 이거 nvm이잖아!” Node.js의 nvm (Node Version Manager)을 사용해 본 사람이라면 jenv의 개념을 직관적으로 이해할 수 있다. 큰 차이점은 nvm은 Node.js 버전을 다운로드 및 설치까지 지원하는 반면, jenv는 설치된 Java 버전을 관리하는 역할만 한다는 것이다. 그렇다면, 여러 Java 버전을 번갈아 가며 사용해야 할 경우 jenv를 어떻게 활용할 수 있을까? Mac에.......",
+    "pubDate": "Mon, 03 Mar 2025 13:05:38 +0900"
+  },
+  {
+    "title": "멋쟁이사자처럼 부트캠프 Java Backend [Git, GitHub 팀 Repo 가이드]",
+    "link": "https://blog.naver.com/drakor/223781044141?fromRss=true&trackingCode=rss",
+    "description": "https://github.com/juanpark/LikeLion-Collab/blob/main/README.md LikeLion-Collab 멋쟁이사자처럼 | 벡엔드 자바 15기 | 회고4팀 협업 공간  팀원들을 위한 Git 사용 가이드 문서 작성자: 박정환 회고4팀 수업 및 프로젝트를 위해 Git 및 GitHub를 효과적으로 사용하는 방법을 설명합니다. 브랜치를 활용하여 안정적인 코드 관리와 원활한 협업이 가능하도록 구성했습니다.  1. GitHub 저장소 클론하기 (최초 1회) 먼저 GitHub에서 팀 저장소를 내 컴퓨터(로컬)에 복제해야 합니다. - 맥: 터미널 / 윈도우스: GitHub CLI를 활용한는 것을 추천합니다. (GUI로 되어 있는 도구를 활용하셔도 괜찮습니다. 과정은 비슷합니다) - 멋사 기본.......",
+    "pubDate": "Sun, 02 Mar 2025 20:23:42 +0900"
+  },
+  {
+    "title": "멋쟁이사자처럼 부트캠프 Java Backend [Day 4]",
+    "link": "https://blog.naver.com/drakor/223779768157?fromRss=true&trackingCode=rss",
+    "description": "Study Notes: Tools of the Trade: Eclipse IDE vs. Terminal Setup What Was Done Manually on the Terminal (Day 3 Recap) Project Setup (Manual Steps) Create a project folder Inside the project folder, create: src/ (for source files) bin/ (for compiled class files) Creating a Package and Java Source File Inside src/, create a package structure cd src mkdir -p com/test For linux systems. For Windows shell you do not need the -p option. Create .java file inside com/test/ Writing Java Code At the top of .java file(s), always include the package declaration package com.test; Compiling Java Code (Using ....... <img src=\"https://blogthumb.pstatic.net/MjAyNTAzMDFfNDAg/MDAxNzQwNzg2NjIxMTk3.0UBrvP7PbjrfmCuhjSMuXCma92mzQwLI--YOotVsPPYg.y3a7leMC003swgve8ASWtiTM0xRa9l0wckNq2EVP4XMg.PNG/Screenshot_2025-03-01_at_08.48.43.png?type=s3\" />",
+    "pubDate": "Sat, 01 Mar 2025 18:36:32 +0900"
+  },
+  {
+    "title": "멋쟁이사자처럼 부트캠프 Java Backend [Day 3]",
+    "link": "https://blog.naver.com/drakor/223777181971?fromRss=true&trackingCode=rss",
+    "description": "Study Notes: My approach - compare Java with C as I'm more comfortable with C. Reading documentation: The Java Language Specification (Java SE 21 Edition) 1.2 Example Programs Observations: Unlike C where argv[0] is the program name, in Java args[0] is the first argument after the program name. In C: argv is an array of char pointers (char*: C-style strings) representing command-line arguments If no arguments are passed, argv[0] still exists and contains the program name In Java: args is an array of String arguments passed to the main method If no arguments are pssed, args[0] does not exi.......",
+    "pubDate": "Thu, 27 Feb 2025 23:30:05 +0900"
+  },
+  {
+    "title": "멋쟁이사자처럼 부트캠프 Java Backend [Day 2]",
+    "link": "https://blog.naver.com/drakor/223775654712?fromRss=true&trackingCode=rss",
+    "description": "Study Notes: My approach - compare C with Java as I'm more comfortable with C. Referencing / Reference What is referencing in programming: Process of accessing memory location indirectly using variables that store memory addresses. What is reference in programming: An alias or a pointer to an object, variable, or memory location. (Not actual value, but address - reference - to the value) Referencing in C is done using pointers. ptr holds the memory address *ptr dereferences ptr to go to the pointed address to access the actual value manual memory management is needed with malloc() and fre.......",
+    "pubDate": "Thu, 27 Feb 2025 00:16:37 +0900"
+  },
+  {
+    "title": "맥북프로 레티나 Mid 2012년 모델 오토언락 (Auto Unlock) 가능하게 하기",
+    "link": "https://blog.naver.com/drakor/220838911949?fromRss=true&trackingCode=rss",
+    "description": "사용하고 있는 맥북프로 레티나 Mid 2012년 모델의 경우 오토언락 기능이 호환되지 않는다는 내용을 발견. (https://support.apple.com/en-us/HT204689) 알아본 결과 와이파이/블루투스 카드의 문제였기에 호환되는 와이파이/블루투스 카드로 업그레이드를 진행. 결과는 성공적이었음. 업그레이드 진행 전 준비사항 - \"애플워치로 맥OS 씨에라 오토언락 가이드\" 참고하기: http://blog.naver.com/drakor/220838901059 - 와이파이/블루투스 카드 (모델명: BCM94360CSAX) *ebay.com에서 $24.99으로 구입했으며 무료배송으로 진행 중국 seller로부터 받는데 약 2주 반 넘는 시간 소요 - Pentalobe 드라이버 *지마켓에서 6000원으로 구입했으며 배송.......",
+    "pubDate": "Tue, 18 Oct 2016 04:31:26 +0900"
+  },
+  {
+    "title": "애플워치로 맥OS 씨에라 오토언락 (Auto Unlock) 가이드",
+    "link": "https://blog.naver.com/drakor/220838901059?fromRss=true&trackingCode=rss",
+    "description": "Auto Unlock 기능 시작하기 전 준비사항 - 애플워치 (watchOS 3으로 업그레이드) - 맥 (macOS Sierra로 업그레이드) *호환되는 하드웨어 - https://support.apple.com/en-us/HT204689 *MacBook Pro (맥북프로) 2013년 이전 모델은 호환이 되지 않는다고 되어 있지만 간단한 하드웨어 업그레이드로 맥북프로 Mid 2012년 모델을 호환 가능하게 할 수 있다: http://blog.naver.com/drakor/220838911949 - 미국 iCloud 계정 및 iOS 9 이상 설치된 아이폰 (2016-10-18 기준) *Auto Unlock 기능을 사용하기 위해서는 \"Two-Factor Authentication\"을 사용해야 하지만 한국은 아직 \"Two-Step Verification\" (2단계 확인)만 사용가능 https://support.appl.......",
+    "pubDate": "Tue, 18 Oct 2016 03:23:37 +0900"
+  },
+  {
+    "title": "[긴급공지] TeslaCrypt 계열 랜섬웨어 모두 복구 가능! (.xxx .ttt .micro .mp3 및 확장자가 없는 경우)",
+    "link": "https://blog.naver.com/drakor/220713613849?fromRss=true&trackingCode=rss",
+    "description": "DISCLAIMER: 아래 내용은 참고 자료일 뿐 소개한 방법, 링크, 프로그램 다운로드 및 사용 등은 개인이 스스로 판단해서 진행해야 하는 부분이다. 참고하되 진행 중 발생할 수 있는 데이터 및 하드웨어 손실 등 관련 피해에 대한 책임은 개인에게 있다. 2016-07-02 업데이트:블로그에 첨부된 파일 TeslaDecoder 1.0을 업그레이드 된 TeslaDecoder 1.0.1로 새로 첨부.(.micro가 복호화 안되는 경우 및 기타 사항 수정 된 툴입니다) 2016-05-19 09:45먼저 블로그 댓글 및 메일로 도움을 청하신 분들에게 사과의 말씀을 드립니다. 결혼 및 그 이후 바쁜 일정으로 도움을 드리지 못하고 현재 댓글과 메일이 누적되어 있는 상황입니다. TeslaCrypt 계열.......",
+    "pubDate": "Thu, 19 May 2016 10:00:58 +0900"
+  },
+  {
+    "title": "랜섬웨어 .XXX .TTT .MICRO 소식 (TeslaCrypt 3.0)",
+    "link": "https://blog.naver.com/drakor/220599770944?fromRss=true&trackingCode=rss",
+    "description": "2016-05-19 업데이트: TeslaCrypt 3.0 버전 복구(복호화) 할 수 있는 방법이 나왔습니다. - TeslaCrypt 3.0 복구(복호화) 방법 안내 .CCC .VVV 확장자로 암호화된 파일에 이어서 이제는 .XXX .TTT .MICRO 확장자로 암호화되는 경우가 많아지고 있다. 이는 TeslaCrypt 2.0의 (CCC, VVV) 약점을 보완한 TeslaCrypt 3.0으로 추정되고 있다. 현재까지 블로그에서 소개한 내용은 아쉽게도 TeslaCrypt 2.2까지만 유효한 방법이다. 2016-01-17 현재 내가 알기로는 TeslaCrypt 3.0에 의해 암호화된 자료를 (.XXX .TTT .MICRO) 복호화 할 수 있는 방법은 없다. (정말 급한 경우가 아니면 인질범에게 돈을 지불하는 것은 말리고 싶다) 하지만 많은 보안 전.......",
+    "pubDate": "Sun, 17 Jan 2016 02:36:34 +0900"
+  },
+  {
+    "title": "랜섬웨어 복구 추가 설명 (CCC, VVV 및 기타 초기 TeslaCrypt)",
+    "link": "https://blog.naver.com/drakor/220593568494?fromRss=true&trackingCode=rss",
+    "description": "DISCLAIMER: 아래 내용은 참고 자료일 뿐 소개한 방법, 링크, 프로그램 다운로드 및 사용 등은 개인이 스스로 판단해서 진행해야 하는 부분이다. 참고하되 진행 중 발생할 수 있는 데이터 및 하드웨어 손실 등 관련 피해에 대한 책임은 개인에게 있다. 랜섬웨어 TeslaCrypt 2.2 (VVV) 복구 가능 안내 포스트를 참고해서 큰 무리 없이 자료를 복구 한 분들이 상당히 많은 것으로 파악된다. 그 외에도 지금까지 내게 ccc 및 vvv로 암호화된(encrypt) 파일 복호화(decrypt)를 직접 의뢰한 분들은 모두 성공하였다. (15명 정도) 하지만 보다 쉽게 따라 할 수 있도록 안내가 미흡했던 부분 그리고 안내 외의 변수들로 어려움이 많았던 경우를 참고해서....... <img src=\"https://blogthumb.pstatic.net/20160111_134/drakor_1452438005271Adg2f_PNG/Screen_Shot_2016-01-10_at_23_50_55.png?type=s3\" />",
+    "pubDate": "Mon, 11 Jan 2016 00:32:58 +0900"
+  },
+  {
+    "title": "랜섬웨어 복구 (CCC 복구 성공)",
+    "link": "https://blog.naver.com/drakor/220591020297?fromRss=true&trackingCode=rss",
+    "description": "DISCLAIMER: 아래 내용은 참고 자료일 뿐 소개한 방법, 링크, 프로그램 다운로드 및 사용 등은 개인이 스스로 판단해서 진행해야 하는 부분이다. 참고하되 진행 중 발생할 수 있는 데이터 및 하드웨어 손실 등 관련 피해에 대한 책임은 개인에게 있다. 랜섬웨어 TeslaCrypt 2.2 (VVV) 복구 가능 2016-01-03 포스트에서 암호화된 파일을 복호화 해서 (decrypt) 복구하는 방법을 한 가지 소개했다. 11월~12월 사이 TeslaCrypt 계열 랜섬웨어로 파일 확장자가 VVV로 암호화된 파일의 경우 대부분 이 방법으로 복구가 되는 것으로 보인다. *참고로 TeslaCrypt 계열 버전 0.3.4b 부터 2.2까지 (확장자: zzz, exx, xyz, aaa, abc, ccc, vvv) 모두 이 방.......",
+    "pubDate": "Fri, 08 Jan 2016 01:27:32 +0900"
+  },
+  {
+    "title": "(msieve 보다 빠른) YAFU 사용 안내",
+    "link": "https://blog.naver.com/drakor/220587824042?fromRss=true&trackingCode=rss",
+    "description": "DISCLAIMER: 아래 내용은 참고 자료일 뿐 소개한 방법, 링크, 프로그램 다운로드 및 사용 등은 개인이 스스로 판단해서 진행해야 하는 부분이다. 참고하되 진행 중 발생할 수 있는 데이터 및 하드웨어 손실 등 관련 피해에 대한 책임은 개인에게 있다. 16년 1월 3일 \"랜섬웨어 TeslaCrypt 2.2 (VVV) 복구 가능\" 제목으로 올린 포스트를 보면 소인수분해를 위해 msieve를 사용한다. 하지만 YAFU가 더 빠르다는 소문에 오늘 간단한 테스트를 했다. 동일한 가상 컴퓨터 환경에서 동일한 16진법 숫자의 소인수분해를 진행했다. msieve - 11시간 42분 (1월 2일 결과) YAFU - 81초 (1월 5일 결과) 결국 지난 포스트 일부를 아래와 같이 수정할 수밖에 없.......",
+    "pubDate": "Tue, 05 Jan 2016 02:51:01 +0900"
+  },
+  {
+    "title": "랜섬웨어 TeslaCrypt 2.2 (VVV) 복구 가능",
+    "link": "https://blog.naver.com/drakor/220585994910?fromRss=true&trackingCode=rss",
+    "description": "DISCLAIMER: 아래 내용은 참고 자료일 뿐 소개한 방법, 링크, 프로그램 다운로드 및 사용 등은 개인이 스스로 판단해서 진행해야 하는 부분이다. 참고하되 진행 중 발생할 수 있는 데이터 및 하드웨어 손실 등 관련 피해에 대한 책임은 개인에게 있다. *랜섬웨어 TeslaCrypt 2.2로 암호화된 파일 복구 가능하다. TeslaCrypt 2.2로 암호화된 파일은 대부분의 경우 복구가 가능해졌는데 이 사실을 아직 모르는 사람이 많은 것 같아 관련 내용을 자세히 소개하기 위한 글이다. 최소한 TeslaCrypt 2.2에 한해서는 인질범들에게 비트코인을 지불하거나 일부 비양심적인 데이터 복구 업체에게 피해를 보는 사람이 줄었으면 한다. 아래 내용은 2015년 12....... <img src=\"https://blogthumb.pstatic.net/20160103_160/drakor_1451755659256t1gsY_PNG/Screen_Shot_2016-01-03_at_02_23_26.png?type=s3\" />",
+    "pubDate": "Sun, 03 Jan 2016 06:41:42 +0900"
+  }
+]

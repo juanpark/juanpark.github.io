@@ -1,0 +1,4 @@
+LinkedIn About Section
+=======================
+
+Career transitioned from business to software engineering, combining business sense with technical execution. Currently maintaining a live webtoon platform solo (Flutter, Drupal, GCP/Kubernetes), while actively building DevOps and backend engineering skills through hands-on projects. Comfortable debugging production systems, writing Infrastructure as Code, and learning independently.
