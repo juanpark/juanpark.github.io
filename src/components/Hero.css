@@ -1,0 +1,167 @@
+.hero-section {
+  padding: 100px 20px 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f9f9f9;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 1.2s ease, transform 1.2s ease;
+}
+
+.hero-section.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+
+.hero-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  filter: grayscale(30%);
+  border: 3px solid #1e1e1e;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 280px;
+  text-align: center;
+}
+
+.hero-name {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #111;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  margin: 0;
+}
+
+.korean-name {
+  font-size: 2.1rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-left: 14px;
+  padding-left: 14px;
+  border-left: 2px solid #bbb;
+  font-family: "Noto Sans KR", "Pretendard", "Apple SD Gothic Neo", sans-serif;
+  line-height: 1.05;
+  letter-spacing: 0.3px;
+}
+
+.hero-role {
+  color: #0077cc;
+  font-size: 1.2rem;
+  margin: 12px 0;
+}
+
+.hero-sub {
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.hero-links {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.contact-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #f0f0f0;
+  color: #333;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.contact-link-email {
+  width: auto;
+  border-radius: 22px;
+  padding: 0 18px;
+  gap: 10px;
+}
+
+.contact-link-cv {
+  width: auto;
+  border-radius: 22px;
+  padding: 0 18px;
+  gap: 10px;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.contact-text {
+  font-size: 0.95rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.contact-link:hover {
+  background: #00d26a;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 60px 20px;
+  }
+
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .hero-photo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .hero-name {
+    font-size: 1.8rem;
+  }
+
+  .hero-role {
+    font-size: 1rem;
+  }
+
+  .hero-links {
+    flex-direction: row;
+    gap: 16px;
+  }
+
+  .contact-link-email,
+  .contact-link-cv {
+    width: 44px;
+    border-radius: 50%;
+    padding: 0;
+  }
+
+  .contact-text {
+    display: none;
+  }
+}

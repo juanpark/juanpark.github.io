@@ -1,0 +1,256 @@
+/* Terminal Header Styles */
+.terminal-header {
+  background: #1e1e1e;
+  color: #00ff00;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  margin: 20px auto;
+  max-width: 900px;
+}
+
+/* Terminal Top Bar (macOS style) */
+.terminal-top-bar {
+  background: #2d2d2d;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-bottom: 1px solid #3d3d3d;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot.red {
+  background: #ff5f56;
+}
+
+.dot.yellow {
+  background: #ffbd2e;
+}
+
+.dot.green {
+  background: #27c93f;
+}
+
+.terminal-title {
+  color: #8a8a8a;
+  font-size: 13px;
+  margin-left: auto;
+}
+
+/* Terminal Body */
+.terminal-body {
+  padding: 20px;
+}
+
+.terminal-line {
+  margin: 0 0 10px 0;
+  color: #00ff00;
+  font-size: 16px;
+}
+
+.prompt {
+  color: #00ff00;
+  margin-right: 6px;
+  font-weight: bold;
+}
+
+.cursor {
+  display: inline-block;
+  width: 8px;
+  height: 14px;
+  background: #00ff00;
+  margin-left: 4px;
+  animation: blink 1s steps(1, end) infinite;
+  vertical-align: baseline;
+  position: relative;
+  top: 0px;
+}
+
+@keyframes blink {
+  0%, 49% {
+    opacity: 1;
+  }
+  50%, 100% {
+    opacity: 0;
+  }
+}
+
+.terminal-output {
+  margin: 0;
+  color: #b4b4b4;
+  font-size: 14px;
+  padding-left: 20px;
+}
+
+/* Navigation Container */
+.nav-container {
+  position: relative;
+}
+
+/* Mobile Menu Toggle */
+.mobile-menu-toggle {
+  display: none;
+  background: #252525;
+  border: none;
+  color: #00ff00;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  padding: 15px 20px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  border-top: 1px solid #3d3d3d;
+  transition: all 0.2s ease;
+}
+
+.mobile-menu-toggle .prompt {
+  color: #00ff00;
+  font-weight: bold;
+  margin-right: 6px;
+}
+
+.mobile-menu-toggle .cursor-blink {
+  display: inline-block;
+  width: 8px;
+  height: 14px;
+  background: #00ff00;
+  margin-left: 4px;
+  animation: blink 1s steps(1, end) infinite;
+  vertical-align: text-bottom;
+}
+
+.mobile-menu-toggle:hover {
+  color: #00ff00;
+  text-shadow: 0 0 8px #00ff00;
+}
+
+.mobile-menu-toggle:hover .prompt,
+.mobile-menu-toggle:hover .cursor-blink {
+  text-shadow: 0 0 8px #00ff00;
+}
+
+/* Terminal Navigation */
+.terminal-nav {
+  background: #252525;
+  padding: 15px 20px;
+  display: flex;
+  gap: 30px;
+  border-top: 1px solid #3d3d3d;
+}
+
+.desktop-prompt {
+  color: #00ff00;
+  font-size: 14px;
+  pointer-events: none;
+  user-select: none;
+}
+
+.desktop-prompt .prompt {
+  font-weight: bold;
+  margin-right: 6px;
+}
+
+.desktop-prompt .colon {
+  margin-left: 0;
+}
+
+.terminal-nav a {
+  color: #00ff00;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.terminal-nav a:hover {
+  color: #00ff00;
+  text-shadow: 0 0 8px #00ff00;
+}
+
+.terminal-nav a:before {
+  content: '> ';
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.terminal-nav a:hover:before {
+  opacity: 1;
+}
+
+.nav-cv-btn {
+  background: none;
+  border: none;
+  color: #00ff00;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 0;
+  transition: color 0.2s ease;
+}
+
+.nav-cv-btn:hover {
+  color: #00ff00;
+  text-shadow: 0 0 8px #00ff00;
+}
+
+.nav-cv-btn:before {
+  content: '> ';
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.nav-cv-btn:hover:before {
+  opacity: 1;
+}
+
+/* Mobile Navigation */
+@media (max-width: 768px) {
+  .mobile-menu-toggle {
+    display: block;
+  }
+
+  .desktop-prompt {
+    display: none;
+  }
+
+  .terminal-nav {
+    flex-direction: column;
+    gap: 0;
+    padding: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    border-top: none;
+  }
+
+  .terminal-nav.mobile-open {
+    max-height: 300px;
+    border-top: 1px solid #3d3d3d;
+  }
+
+  .terminal-nav a,
+  .terminal-nav .nav-cv-btn {
+    padding: 12px 20px;
+    border-bottom: 1px solid #3d3d3d;
+    width: 100%;
+    text-align: left;
+  }
+
+  .terminal-nav a:last-child,
+  .terminal-nav .nav-cv-btn {
+    border-bottom: none;
+  }
+
+  .terminal-nav a:before,
+  .terminal-nav .nav-cv-btn:before {
+    content: '> ';
+    opacity: 1;
+  }
+}

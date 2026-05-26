@@ -1,0 +1,242 @@
+/* CV Modal specific styles */
+.modal-cv {
+  max-width: 900px;
+  width: 90vw;
+}
+
+.cv-header-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex: 1;
+}
+
+.language-toggle {
+  display: flex;
+  gap: 8px;
+  background: #f4f4f4;
+  padding: 4px;
+  border-radius: 8px;
+}
+
+.lang-btn {
+  padding: 6px 16px;
+  border: none;
+  background: transparent;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: #666;
+}
+
+.lang-btn:hover {
+  background: #e0e0e0;
+  color: #333;
+}
+
+.lang-btn.active {
+  background: #00d26a;
+  color: white;
+}
+
+.cv-content {
+  max-height: 70vh;
+}
+
+.markdown-body {
+  line-height: 1.6;
+  color: #333;
+}
+
+.markdown-body h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #111;
+  border-bottom: 2px solid #00d26a;
+  padding-bottom: 0.5rem;
+}
+
+.markdown-body h2 {
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #222;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.3rem;
+}
+
+.markdown-body h3 {
+  font-size: 1.1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: #333;
+}
+
+.markdown-body h4 {
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: #444;
+  font-weight: 600;
+}
+
+.markdown-body p {
+  margin-bottom: 1rem;
+}
+
+.markdown-body ul, .markdown-body ol {
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+.markdown-body li {
+  margin-bottom: 0.5rem;
+}
+
+.markdown-body strong {
+  font-weight: 600;
+  color: #111;
+}
+
+.markdown-body em {
+  font-style: italic;
+  color: #555;
+}
+
+.markdown-body code {
+  background: #f4f4f4;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-family: 'Consolas', 'Monaco', monospace;
+  font-size: 0.9em;
+}
+
+.markdown-body a {
+  color: #0078d4;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.markdown-body a:hover {
+  color: #005fa3;
+  text-decoration: underline;
+}
+
+.cv-actions {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: center;
+}
+
+.loading-text {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .modal-cv {
+    width: 95vw;
+    max-width: 95vw;
+  }
+
+  .cv-header-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .modal-title {
+    font-size: 1rem;
+  }
+
+  .language-toggle {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .lang-btn {
+    flex: 1;
+    padding: 8px 12px;
+  }
+
+  .cv-content {
+    max-height: 65vh;
+  }
+
+  .markdown-body h1 {
+    font-size: 1.4rem;
+  }
+
+  .markdown-body h2 {
+    font-size: 1.2rem;
+  }
+
+  .markdown-body h3 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal-cv {
+    width: 98vw;
+    max-width: 98vw;
+  }
+}
+
+/* Print styles */
+@media print {
+  /* Hide everything on the page */
+  body > *:not(.modal-overlay) {
+    display: none !important;
+  }
+
+  /* Show only the CV modal */
+  .modal-overlay {
+    background: none !important;
+    position: static !important;
+    padding: 0 !important;
+    display: block !important;
+  }
+
+  .modal-container {
+    box-shadow: none !important;
+    max-width: 100% !important;
+    max-height: none !important;
+    border-radius: 0 !important;
+    display: block !important;
+  }
+
+  .modal-header,
+  .cv-actions,
+  .modal-close {
+    display: none !important;
+  }
+
+  .modal-content {
+    padding: 0 !important;
+    max-height: none !important;
+    overflow: visible !important;
+  }
+
+  .markdown-body {
+    max-width: 100% !important;
+  }
+
+  /* Better page breaks */
+  .markdown-body h1,
+  .markdown-body h2,
+  .markdown-body h3 {
+    page-break-after: avoid;
+  }
+
+  .markdown-body ul,
+  .markdown-body ol {
+    page-break-inside: avoid;
+  }
+}

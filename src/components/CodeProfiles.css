@@ -1,0 +1,124 @@
+.code-profiles-section {
+  text-align: center;
+  padding: 60px 20px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.code-profiles-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+}
+
+.section-subtitle {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+/* Unified card layout */
+.card {
+  background: #fafafa;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 28px 24px;
+  width: 100%;
+  max-width: 720px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 6px;
+}
+
+.card-sub {
+  color: #555;
+  margin-bottom: 18px;
+  font-size: 0.95rem;
+}
+
+/* Image sizing */
+.profile-img {
+  display: block;
+  width: 90%;
+  max-width: 520px;
+  margin: 0 auto 16px;
+  border-radius: 8px;
+}
+
+.mini-heading {
+  font-size: 0.9rem;
+  color: #333;
+  margin-top: 18px;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.streak-note {
+  font-size: 0.8rem;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.profile-links {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.profile-links a {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #f0f0f0;
+  border-radius: 24px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+.profile-links a:hover {
+  background: #00d26a;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+/* Certification badge */
+.cert-badge {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 12px;
+  transition: transform 0.2s ease;
+}
+
+.cert-badge:hover {
+  transform: scale(1.05);
+}
+
+.cert-label {
+  text-align: center;
+  font-size: 0.95rem;
+  color: #333;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .code-profiles-section {
+    padding: 40px 16px;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  .profile-img {
+    width: 100%;
+    max-width: 400px;
+  }
+}
