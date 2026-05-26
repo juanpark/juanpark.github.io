@@ -7,7 +7,7 @@ const professional = [
     id: 'lokma',
     title: 'Lokma Webtoon Service',
     role: 'Technical Maintainer',
-    desc: 'Java · Spring Boot · Flutter · GCP Cloud Run · Firebase',
+    desc: 'Live iOS/Android webtoon platform — backend, mobile, and infra, maintained solo',
     tags: ['Java', 'Spring Boot', 'Flutter', 'GCP', 'Cloud Run', 'Firebase'],
     details: {
       role: 'Technical Maintainer',
@@ -31,7 +31,7 @@ const professional = [
     id: 'slough',
     title: 'Slough / Slough Align',
     role: 'Backend & AI Developer',
-    desc: 'Python · FastAPI · LangGraph · RAG · Spring AI · MCP · AWS',
+    desc: 'AI Slack tools for an enterprise client — a RAG persona bot and an MCP server',
     tags: ['Python', 'FastAPI', 'LangGraph', 'pgvector', 'MCP', 'Spring AI', 'AWS'],
     details: {
       role: 'Backend & AI Developer',
