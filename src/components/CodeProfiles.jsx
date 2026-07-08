@@ -11,9 +11,20 @@ export default function CodeProfiles() {
         </p>
 
         <div className="card">
+          <a
+            href="https://www.credly.com/badges/25dea6dc-580b-413b-b5d1-ee8295f12c67/public_url"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="https://images.credly.com/size/150x150/images/f2040db3-3904-4240-8966-e87b1510bea0/blob"
+              alt="Claude Certified Architect – Foundations"
+              className="cert-badge"
+            />
+          </a>
           <p className="cert-label" style={{ fontWeight: 'bold', fontSize: '1.1rem', marginBottom: '0.5rem' }}>
             <a
-              href="https://verify.skilljar.com/c/oh4sojoeb25w"
+              href="https://www.credly.com/badges/25dea6dc-580b-413b-b5d1-ee8295f12c67/public_url"
               target="_blank"
               rel="noreferrer"
             >
