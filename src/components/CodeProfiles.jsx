@@ -46,7 +46,16 @@ export default function CodeProfiles() {
               className="cert-badge"
             />
           </a>
-          <p className="cert-label">AWS Certified Cloud Practitioner (2025)</p>
+          <p className="cert-label" style={{ fontWeight: 'bold', fontSize: '1.1rem', marginBottom: '0.5rem' }}>
+            <a
+              href="https://www.credly.com/badges/02e82357-e1c6-46c2-9a9d-148671f9a809/public_url"
+              target="_blank"
+              rel="noreferrer"
+            >
+              AWS Certified Cloud Practitioner
+            </a>
+          </p>
+          <p className="cert-label">Amazon Web Services Training and Certification (2025)</p>
         </div>
 
         <div className="card">
