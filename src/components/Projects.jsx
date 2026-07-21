@@ -54,7 +54,7 @@ const projects = [
     title: 'MYCE',
     desc: 'IaC, CI/CD, and production ops for an exhibition platform',
     tags: ['Terraform', 'Ansible', 'AWS EKS', 'Spring Boot', 'React', 'K6', 'AWS Bedrock'],
-    status: 'active',
+    status: 'archived',
     media: {
       type: 'pdf',
       src: '/pdfs/myce-presentation.pdf',
@@ -74,7 +74,6 @@ const projects = [
       ],
       tech: ['Spring Boot 3.5', 'React', 'AWS EKS', 'Terraform', 'Ansible', 'GitHub Actions', 'Docker', 'MySQL', 'MongoDB', 'Redis', 'Prometheus', 'Grafana', 'K6', 'AWS Bedrock', 'S3', 'CloudFront'],
       challenges: 'My first IaC project: Terraform and Ansible that rebuild the whole environment from scratch. Debugged real production issues (stateless OAuth2 sessions breaking across servers, ALB health checks failing on an SMTP dependency, multi-datasource conflicts) and kept costs down with deliberate calls like GitHub Actions over Jenkins and scaling down after the demo.',
-      website: 'https://myce.live',
       githubRepos: {
         infrastructure: 'https://github.com/LIKE-LION-MYCE/infrastructure-project',
         loadtest: 'https://github.com/LIKE-LION-MYCE/myce-loadtest',
@@ -94,7 +93,7 @@ const projects = [
     title: 'JobDam',
     desc: 'Dual-repo CI/CD and OAuth2 auth for a full-stack app',
     tags: ['Jenkins', 'Docker', 'OAuth2', 'JWT', 'React', 'NGINX'],
-    status: 'active',
+    status: 'archived',
     details: {
       role: 'Auth & infrastructure lead',
       responsibilities: [
@@ -115,7 +114,6 @@ const projects = [
         series: 'https://blog.naver.com/drakor/224068291052',
         individual: 'https://blog.naver.com/drakor/224069242269'
       },
-      website: 'https://www.jobdams.online',
       links: []
     }
   },

@@ -123,7 +123,7 @@ Led infrastructure architecture and DevOps for exhibition management platform.
 
 **Tech Stack:** Spring Boot 3.5, React, AWS EKS, Terraform, Ansible, GitHub Actions, Docker, MySQL, MongoDB, Redis, S3, CloudFront, Prometheus, Grafana, K6, AWS Bedrock
 
-*🔗 [myce.live](https://myce.live) • [Blog Post](https://blog.naver.com/drakor/224069375028) • [Technical Docs](https://docs.google.com/document/d/1JMvKUZnNZp7ymp53CphnTlzWFBehL01zWHNTYkxG7E0/edit?usp=sharing)*
+*🔗 [Blog Post](https://blog.naver.com/drakor/224069375028) • [Technical Docs](https://docs.google.com/document/d/1JMvKUZnNZp7ymp53CphnTlzWFBehL01zWHNTYkxG7E0/edit?usp=sharing)*
 
 ### JobDam — Job Listing Platform
 *Authentication & Full-Stack Infrastructure Lead | Team project*
@@ -152,7 +152,7 @@ Built authentication system and full-stack CI/CD infrastructure for dual-reposit
 
 **Tech Stack:** Spring Boot 3.5, Spring Security, OAuth2, JWT, Java 21, React, Vite, Jenkins, Docker, AWS EC2, RDS, MySQL 8, MongoDB Atlas, NGINX, Let's Encrypt, Prometheus, Grafana
 
-*🔗 [jobdams.online](https://www.jobdams.online) • [Backend Repo](https://github.com/LionPay-LikeLion/jobdam) • [Frontend Repo](https://github.com/LionPay-LikeLion/jobdam-frontend) • [Blog Post](https://blog.naver.com/drakor/224069242269)*
+*🔗 [Backend Repo](https://github.com/LionPay-LikeLion/jobdam) • [Frontend Repo](https://github.com/LionPay-LikeLion/jobdam-frontend) • [Blog Post](https://blog.naver.com/drakor/224069242269)*
 
 ### KnockSea — Containerized Deployment with Monitoring
 *Individual project: AWS deployment with automated pipeline*

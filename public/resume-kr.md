@@ -85,7 +85,7 @@ AWS → GCP 이전 계획 수립(예상 비용 98.5% 절감).
 
 **기술 스택:** Spring Boot 3.5, React, AWS EKS, Terraform, Ansible, GitHub Actions, Docker, MySQL, MongoDB, Redis, S3, CloudFront, Prometheus, Grafana, K6, AWS Bedrock
 
-*🔗 [myce.live](https://myce.live) • [자세한 사례 보기](https://juanpark.github.io)*
+*🔗 [자세한 사례 보기](https://juanpark.github.io) • [발표자료 (PDF)](https://juanpark.github.io/pdfs/myce-presentation.pdf)*
 
 ---
 
@@ -102,7 +102,7 @@ Access/Refresh Token 기반 인증 구조 설계 및 CORS, 502, 세션 충돌 �
 
 **기술 스택:** Spring Boot 3.5, Spring Security, OAuth2, JWT, Java 21, React, Vite, Jenkins, Docker, AWS(EC2, RDS), MySQL 8, MongoDB Atlas, NGINX, Let's Encrypt, Prometheus, Grafana
 
-*🔗 [jobdams.online](https://www.jobdams.online) • [자세한 내용](https://juanpark.github.io)*
+*🔗 [자세한 내용](https://juanpark.github.io) • [백엔드 저장소](https://github.com/LionPay-LikeLion/jobdam) • [프론트엔드 저장소](https://github.com/LionPay-LikeLion/jobdam-frontend)*
 
 ---
 
