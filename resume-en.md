@@ -70,7 +70,7 @@ Infrastructure and DevOps lead for an exhibition management platform.
 
 **Tech:** Spring Boot 3.5, React, AWS EKS, Terraform, Ansible, GitHub Actions, Docker, MySQL, MongoDB, Redis, S3, CloudFront, Prometheus, Grafana, K6, AWS Bedrock
 
-*🔗 [myce.live](https://myce.live) • [Full case study & technical details](https://juanpark.github.io)*
+*🔗 [Full case study & technical details](https://juanpark.github.io) • [Presentation (PDF)](https://juanpark.github.io/pdfs/myce-presentation.pdf)*
 
 ### JobDam — Job Listing Platform
 *Authentication & Full-Stack Infrastructure Lead | Team project*
@@ -82,7 +82,7 @@ Owned auth and CI/CD for a dual-repo full-stack app.
 
 **Tech:** Spring Boot 3.5, Spring Security, OAuth2, JWT, Java 21, React, Vite, Jenkins, Docker, AWS (EC2, RDS), MySQL 8, MongoDB Atlas, NGINX, Let's Encrypt, Prometheus, Grafana
 
-*🔗 [jobdams.online](https://www.jobdams.online) • [Full project details](https://juanpark.github.io)*
+*🔗 [Full project details](https://juanpark.github.io) • [Backend Repo](https://github.com/LionPay-LikeLion/jobdam) • [Frontend Repo](https://github.com/LionPay-LikeLion/jobdam-frontend)*
 
 ### Additional Projects
 
