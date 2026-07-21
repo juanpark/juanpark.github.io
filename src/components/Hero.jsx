@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
 import './Hero.css';
-import profileImg from '../assets/profile.jpg';
 
 export default function Hero({ onCVClick }) {
   const [isVisible, setIsVisible] = useState(false);
@@ -28,7 +27,6 @@ export default function Hero({ onCVClick }) {
       ref={heroRef}
     >
       <div className="hero-content">
-        <img src={profileImg} alt="Juan Park" className="hero-photo" />
         <div className="hero-text">
           <h1 className="hero-name">
             Juan Park <span className="korean-name">박정환</span>
