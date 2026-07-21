@@ -36,9 +36,6 @@ export default function Hero({ onCVClick }) {
           <h2 className="hero-role">
             Backend & Infra Engineer · Spring Boot · GCP · Claude Certified · AWS Certified
           </h2>
-          <p className="hero-sub">
-            I build backend services and run the infrastructure they sit on.
-          </p>
           <div className="hero-links">
             <button onClick={onCVClick} className="contact-link contact-link-cv" title="View CV">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
